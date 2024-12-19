@@ -1,5 +1,5 @@
 
-import { menuData } from "../menuData.js";
+import { menuData } from "../data/menuData.js";
 import { renderMenu } from "./menu.js";
 
 document.getElementById("search-input").addEventListener("input", event => {
