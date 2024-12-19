@@ -3,7 +3,7 @@ import { menuDatas } from "../data/menuData.js";
 
 export function renderMenu() {
   const menuContainer = document.getElementById("menu");
-  const categories = [...new Set(menuData.map(item => item.category))];
+  const categories = [...new Set(menuDatas.map(item => item.category))];
 
   categories.forEach(category => {
     const categorySection = document.createElement("section");
