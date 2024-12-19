@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menú - Mitos Bar</title>
+        <link rel="stylesheet" href="public/styles.css">
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="assets/images/mitos-logo.jpg" alt="Mitos Bar">
+            <nav id="navbar">
+                <ul>
+                  <li><a href="#promo">Promos</a></li>
+                  <li><a href="#comida">Comidas</a></li>
+                  <li><a href="#bebids">Bebidas</a></li>
+                  <li><a href="#cerveza">Cervezas</a></li>
+                </ul>
+              </nav>
+        </header>
+
+        <main>
+            <section id="search-bar">
+                <input type="text" id="search-input" placeholder="Buscar...">
+            </section>
+            <section id="menu">
+                <!--Menu content is loaded dinamically-->
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; Copyright 2024. Mitos Bar</p>
+        </footer>
+
+        <script src="src/assets/data/menuData.js" type="module"></script>
+        <script src="src/components/navbar.js" type="module"></script>
+        <script src="src/components/menu.js" type="module"></script>
+        <script src="src/components/search.js" type="module"></script>
+        <script src="src/app.js" type="module"></script>
+    </body>
+</html>
